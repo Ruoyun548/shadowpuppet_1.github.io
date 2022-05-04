@@ -1,0 +1,121 @@
+body {
+    background-size: 200% auto;
+    background-position-x: -200px;
+    background-position-y: 50px;
+    background-color: #ecdfbe;
+}
+
+main {
+    padding: 156px 85px 90px;
+    position: relative;
+}
+
+main .left {
+    float: left;
+    width: 318px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .left .top img {
+    width: 130px;
+    margin-right: 100px;
+}
+
+main .left .top img.small {
+    width: 110px;
+}
+
+main .left .center {
+    margin-top: 50px;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+}
+
+main .left .bottom img {
+    width: 244px;
+    opacity: .5;
+}
+
+main .man {
+    width: 244px;
+    opacity: .5;
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+}
+
+main .man img {
+    width: 100%;
+}
+
+main .right {
+    float: left;
+    width: calc(100% - 318px);
+    padding: 0 200px 30px 130px;
+    font-family: 楷体;
+}
+
+main .right.english {
+    font-family: 'Futura PT';
+}
+
+main .right p {
+    text-indent: 2em;
+    font-size: 21px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+main .right p.noIndex {
+    text-indent: 0;
+}
+
+main .right li {
+    margin-bottom: 50px;
+}
+
+main .right li h5{
+    font-size: 20px;
+    color: #af1225;
+}
+
+main .right li .content {
+    font-size: 20px;
+    color: #000;
+}
+main .right li .content.chara {
+    margin-bottom: 20px;
+}
+
+main .right li .info {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+main .right li .title {
+    position: relative;
+    display: inline-block;
+}
+
+main .right li .title img {
+    width: 146px;
+}
+
+main .right li .title span {
+    font-size: 18px;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 1250px) {
+    main .right {
+        padding: 0 0 30px 0;
+    }
+}
